@@ -7,9 +7,12 @@ import { KeyedRead, KeyedWrite } from '../../../node_modules/@angular/compiler';
   styleUrls: ['./data-binding.component.css']
 })
 export class DataBindingComponent implements OnInit {
-
+  constructor(){
+  
+}
 valorAtual : string
 valorSalvo
+itemsearch : string;
 
   ngOnInit() {
   }
