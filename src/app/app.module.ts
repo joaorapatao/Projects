@@ -8,20 +8,23 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { DataBindingComponent } from './data-binding/data-binding.component';
 import { ApresentacaoComponent } from './apresentacao/apresentacao.component';
-innerWidth
+import { CadastroComponent } from './cadastro/cadastro.component';
+import { SociaisComponent } from './sociais/sociais.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DataBindingComponent,
-    ApresentacaoComponent
-   
+    ApresentacaoComponent,
+    CadastroComponent,
+    SociaisComponent
+
 
   ],
   imports: [
     BrowserModule,
     RouterModule.forRoot(ROUTES)
-   
+
   ],
   providers: [],
   bootstrap: [AppComponent]
