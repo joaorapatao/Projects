@@ -7,8 +7,23 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CadastroComponent implements OnInit {
 
-  constructor() { }
+ // campoNome: string;
+  // campoSobrenome:string;
+  // campoEmail: string;
+  // sexo: CharacterData;
+  // telefone :number;
+  // cidade : string;
+  // estado :  string;
+  // mensagem : string;
+  // envio : string
 
+  constructor() { 
+
+  // this.campoNome = document.getElementById('nome').nodeValue;
+  }
+  // salvarDados(){
+
+  // }
   ngOnInit() {
   }
 
